@@ -46,7 +46,7 @@ function App() {
         // console.log(choiceOne)
         // console.log(choiceTwo)
       } else {
-        setTimeout(() => resetTurn(), 500)
+        setTimeout(() => resetTurn(), 700)
         // console.log('not matching')
         // console.log(choiceOne)
         // console.log(choiceTwo)

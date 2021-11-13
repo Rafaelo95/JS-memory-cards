@@ -18,3 +18,7 @@
 .flipped-card .back {
     z-index: -1;
 }
+
+.card:hover {
+    cursor: pointer;
+}
