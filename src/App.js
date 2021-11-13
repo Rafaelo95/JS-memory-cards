@@ -13,8 +13,9 @@ function App() {
   
   return (
     <div className="App">
-      <h2>Hello</h2>
-
+        {cards.map(card => {
+          return <div  className="cards"><img src={card.src} alt="card"></img></div>
+        })}
     </div>
   );
 }
