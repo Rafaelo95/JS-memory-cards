@@ -13,9 +13,8 @@ function App() {
   
   return (
     <div className="App">
-        {cards.map(card => {
-          return <div  className="cards"><img src={card.src} alt="card"></img></div>
-        })}
+        <h1>Magic Match</h1>
+        <button>New Game</button>
     </div>
   );
 }

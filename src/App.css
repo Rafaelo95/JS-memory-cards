@@ -1,11 +1,20 @@
 .App {
   max-width: 1200px;
   margin: 40px auto;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.cards {
-  text-align: center;
+button {
+  background: none;
+  border: 2px solid white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d1376a;
+  color: #fff;
 }
